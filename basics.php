@@ -62,3 +62,14 @@ print_r(
 );
 
 echo '</pre>';
+echo '</br>';
+
+########################
+//! Passage par valeur vs passage par refference  : 
+$a = 'test';
+$b = &$a;
+
+echo $a;
+echo '<br>';
+echo $b;
+
