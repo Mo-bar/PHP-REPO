@@ -44,3 +44,21 @@ Prenom : $fname,
 Ecole : $ecole
 now;
 
+########################
+//! Arrays : 
+echo '<pre>';
+print_r(
+    [
+        0 => 'index 0',
+        'nom' => 'BARKOUCH',
+        'prenom' => 'Mourad',
+        'test 1',
+        'test 2',
+        True => 'true', //! override in index 1
+        False => 'false', //! override in index 0
+        'innerArray' => [12,23,34,'sdsd','adress' => 'asasasasasasas']
+
+    ]
+);
+
+echo '</pre>';
